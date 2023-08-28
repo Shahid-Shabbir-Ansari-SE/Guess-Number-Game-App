@@ -2,6 +2,10 @@
 
 Welcome to the Guess Number Game! This is a simple game where you need to guess the digits of a randomly generated number.
 
+# Deployed Site Link
+
+https://guessnumberchallenge.netlify.app/
+
 ## How to Play
 
 1. Open the `index.html` file in your web browser.
