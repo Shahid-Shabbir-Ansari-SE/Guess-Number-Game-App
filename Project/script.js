@@ -287,3 +287,12 @@ function addClickEventListner3() {
       }
     });
 }
+
+// Add an event listener to the refresh button
+document.getElementById("refreshButton").addEventListener("click", refreshPage);
+
+// Refresh page function
+function refreshPage() {
+  location.reload();
+}
+

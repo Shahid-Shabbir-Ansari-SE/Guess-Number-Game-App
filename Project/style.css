@@ -63,13 +63,12 @@ body {
   align-items: center;
 }
 
-.digits span{
+.digits span {
   font-family: VAG;
   font-size: 30px;
   color: saddlebrown;
   width: 100% !important;
   text-align: center;
-
 }
 
 .container2 {
@@ -88,16 +87,34 @@ body {
   height: 200px;
 }
 
-h2{
+h2 {
   font-family: VAG;
   font-size: 30px;
   line-height: 0;
   color: blue;
 }
 
-.result span{
+.result span {
   font-family: VAG;
   font-size: 30px;
   line-height: 0;
   color: saddlebrown;
 }
+
+.refresh-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  height: 40px;
+  width: 150px;
+  font-size: 17px;
+  font-family: poppins;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin: 20px auto;
+}
+
+
