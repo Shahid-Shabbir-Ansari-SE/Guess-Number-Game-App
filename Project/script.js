@@ -49,8 +49,7 @@ function shufflefirstandranddigit() {
   // Shuffle the random digits with the first digit
   var shuffledDigits = [firstdigit, randomDigits[0], randomDigits[1]];
 
-  // Perform the shuffle (You can use any shuffling algorithm here)
-  // For example, here's a simple swap-based shuffle:
+  // Perform the shuffle
   for (var i = shuffledDigits.length - 1; i > 0; i--) {
     var j = Math.floor(Math.random() * (i + 1));
     var temp = shuffledDigits[i];
